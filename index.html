@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d230ed3f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>lista de compras</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="container__titulo">Lista de Compras</h1>
+        <form>
+            <div class="container__input">
+                <input id="input" type="text" placeholder="Adicione um item">
+                <input class="container__input--enviar" type="submit" value="Adicionar">
+            </div>
+        </form>
+        <div class="container__lista">
+            <!-- ITENS DA LISTA -->
+            <ul id="lista">
+                <li id="itemExemplo">Adicione algum item<i class="fa-solid fa-trash lixoExemplo"></i></li>
+            </ul>
+        </div>
+        <button class="container__limpar">Limpar</button>
+    </div>  
+    <script src="main.js"></script>
+</body>
+</html>
